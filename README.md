@@ -1,4 +1,3 @@
-![test-tack-a-kh](https://github.com/user-attachments/assets/1d499fc1-c2ad-4ea2-a55b-1a027d91173e)
 ### English
 
 **Project Completion Report:**
@@ -62,3 +61,5 @@ Created a simple HTML page based on the provided prototype.
 - Весь блок проекта кликабелен.
 - Картинки проектов с затемнением, уменьшающимся при наведении.
 - Проекты перестраиваются по 2 в ряд при ширине экрана менее 1100px и по одному в ряд при ширине менее 680px.
+
+![test-tack-a-kh](https://github.com/user-attachments/assets/1d499fc1-c2ad-4ea2-a55b-1a027d91173e)
