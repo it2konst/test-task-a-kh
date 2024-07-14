@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("./fonts/Roboto-Regular.woff2") format("woff2"),
+        url("./fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url("./fonts/Raleway-Regular.woff2") format("woff2"),
+        url("./fonts/Raleway-Regular.woff") format("woff");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font: 400 1rem / 1 "Roboto-Regular", sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1600px;
+}
+
+.none {
+    display: none !important;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.visually-hidden {
+    /* Contain text within 1px box */
+    height: 1px;
+    overflow: hidden;
+    width: 1px;
+
+    /* Keep the layout */
+    position: absolute;
+
+    /* Remove any visible trace (e.g. background color) */
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%); /* browsers in the future */
+
+    /* Prevent the screen reader to skip spaces between words */
+    white-space: nowrap;
+}
+
+a {
+    color: $white;
+    transition: color 0.2s ease-in;
+
+    &:hover {
+        color: $accent;
+    }
+}

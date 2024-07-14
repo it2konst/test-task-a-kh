@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4rem;
+    padding: 2rem 1rem;
+}
+
+.header__logo {
+    flex: 0 0 18%;
+}
+
+.header__logo img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+}
+
+.header__nav a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.3rem;
+
+    transition: filter 0.2s ease;
+}
+
+.header__nav a:hover {
+    text-decoration: underline;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+}
