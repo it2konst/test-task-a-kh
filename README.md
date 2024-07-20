@@ -1,3 +1,5 @@
+![a-kh](https://github.com/user-attachments/assets/3c434dbe-8006-42df-88e1-9e99ba01c514)
+
 ### English
 
 **Project Completion Report:**
